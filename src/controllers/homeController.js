@@ -47,7 +47,6 @@ const createUser = (req, res) => {
 
 
 const getUsers = async (req, res) => {
-
  
      let users = await getAllUsers();
      console.log(users);
